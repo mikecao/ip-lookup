@@ -2,12 +2,12 @@
   "name": "ip-lookup",
   "version": "1.0.0",
   "description": "IP address lookup",
-  "main": "index.js",
+  "repository": "https://github.com/mikecao/ip-lookup.git",
+  "author": "Mike Cao <mike@mikecao.com>",
+  "license": "MIT",
   "scripts": {
     "start": "vercel dev"
   },
-  "author": "Mike Cao <mike@mikecao.com>",
-  "license": "MIT",
   "dependencies": {
     "geolite2-redist": "^1.0.7",
     "maxmind": "^4.1.3"
