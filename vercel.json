@@ -1,5 +1,5 @@
 {
   "functions": {
-    "includeFiles": "dbs/*.mmdb"
+    "includeFiles": ["dbs/*.mmdb"]
   }
 }
