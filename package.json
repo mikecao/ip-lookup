@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "vercel dev",
-    "build": "node scripts/download-dbs.js"
+    "postinstall": "node scripts/download-dbs.js"
   },
   "dependencies": {
     "maxmind": "^4.1.3",

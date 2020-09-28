@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/**/*.js": {
-      "includeFiles": ["lib/*.js", "index.html"]
+      "includeFiles": "dbs/**"
     }
   }
 }
