@@ -1,3 +1,3 @@
-import iplookup from '../../lib/iplookup';
+import city from '../city/[ip]';
 
-export default async (req, res) => iplookup(req, res, 'GeoLite2-City');
+export default async (req, res) => city(req, res);

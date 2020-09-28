@@ -1,3 +1,5 @@
+import path from 'path';
 import iplookup from '../../lib/iplookup';
 
-export default async (req, res) => iplookup(req, res, 'GeoLite2-City');
+export default async (req, res) =>
+  iplookup(req, res, path.resolve(__dirname, `dbs/GeoLite2-City.mmdb`));
