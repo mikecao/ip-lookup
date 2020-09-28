@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/**/*.js": {
-      "includeFiles": "lib"
+      "includeFiles": ["lib/*.js", "index.html"]
     }
   }
 }
