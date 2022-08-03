@@ -10,7 +10,7 @@ let urls = [
   'https://raw.githubusercontent.com/GitSquared/node-geolite2-redist/master/redist/GeoLite2-Country.tar.gz',
 ];
 
-const dest = path.resolve(__dirname, '../public/.dbs/');
+const dest = path.resolve(__dirname, '../public/geo/');
 
 if (!fs.existsSync(dest)) {
   fs.mkdirSync(dest);
