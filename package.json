@@ -15,7 +15,6 @@
   "dependencies": {
     "copyfiles": "^2.4.1",
     "dotenv": "^16.0.1",
-    "folder-walker": "^3.2.0",
     "maxmind": "^4.3.6",
     "next": "12.2.3",
     "npm-run-all": "^4.1.5",

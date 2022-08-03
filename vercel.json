@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/city.js": {
+      "includeFiles": "public/geo/**"
+    }
+  }
+}
