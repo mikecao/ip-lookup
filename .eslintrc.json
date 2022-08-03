@@ -1,7 +1,3 @@
 {
-  "env": {
-    "node": true,
-    "es2020": true
-  },
-  "extends": ["eslint:recommended", "prettier"]
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:prettier/recommended", "next"]
 }

@@ -1,25 +1,32 @@
 {
   "name": "ip-lookup",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "IP address lookup",
   "repository": "https://github.com/mikecao/ip-lookup.git",
   "author": "Mike Cao <mike@mikecao.com>",
   "license": "MIT",
   "scripts": {
-    "start": "vercel dev",
-    "postinstall": "node scripts/download-dbs.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "node scripts/download-dbs.js"
   },
   "dependencies": {
-    "copyfiles": "^2.3.0",
-    "maxmind": "^4.1.3",
+    "copyfiles": "^2.4.1",
+    "dotenv": "^16.0.1",
+    "maxmind": "^4.3.6",
+    "next": "12.2.3",
     "npm-run-all": "^4.1.5",
-    "tar": "^6.0.5"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "request-ip": "^3.3.0",
+    "tar": "^6.1.11"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
-    "prettier-eslint": "^11.0.0"
+    "eslint": "^8.21.0",
+    "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
