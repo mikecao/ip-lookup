@@ -5,7 +5,7 @@ export default async (req, res) => {
 
   res.setHeader('content-type', 'text/plain');
   res.status(200);
-  res.json({
+  return res.json({
     ip
   });
 };
