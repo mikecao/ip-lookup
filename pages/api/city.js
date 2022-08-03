@@ -1,4 +1,3 @@
 import iplookup from 'lib/iplookup';
 
-export default async (req, res) =>
-  iplookup(req, res, 'City');
+export default async (req, res) => iplookup(req, res, 'City');

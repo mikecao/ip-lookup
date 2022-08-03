@@ -1,3 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:prettier/recommended", "next"]
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:prettier/recommended", "next"],
+  "rules": {
+    "import/no-anonymous-default-export": "off"
+  }
 }
