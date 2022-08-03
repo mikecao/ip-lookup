@@ -7,10 +7,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm-run-all download build-app",
+    "build-app": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "node scripts/download-dbs.js"
+    "download": "node scripts/download-dbs.js"
   },
   "dependencies": {
     "copyfiles": "^2.4.1",
